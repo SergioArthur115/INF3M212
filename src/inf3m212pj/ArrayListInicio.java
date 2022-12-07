@@ -28,7 +28,9 @@ public class ArrayListInicio {
             if (op == 1) {
                 System.out.println("Digite um nome: ");
                 nomes.add(ler.next());
-                if(nomes.size()>1){Collections.sort(nomes);}
+                if (nomes.size() > 1) {
+                    Collections.sort(nomes);
+                }
             } else if (op == 2) {
                 if (nomes.isEmpty()) {
                     System.out.println("Está vazio");
@@ -40,7 +42,7 @@ public class ArrayListInicio {
                 System.out.println("Tamanho do array: " + nomes.size());
             } else if (op == 4) {
                 System.out.println("Digite 1 para mostrar na ordem horizontal e 2 para a vertical");
-                ordem=ler.nextInt();
+                ordem = ler.nextInt();
                 for (String nome : nomes) {
                     if (ordem == 1) {
                         System.out.println(nomes.toString());
@@ -48,7 +50,6 @@ public class ArrayListInicio {
                         System.out.println("Nome: " + nome);
                     }
                 }
-
             } else if (op == 0) {
                 System.out.println("Aplicação encerrada pelo usuário!");
             } else {
