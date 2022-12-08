@@ -57,7 +57,7 @@ public class ArrayListInicio {
             }
 
         } while (op != 0);
-        System.out.println("teste do github")
+        System.out.println("teste do github");
     }
 
     public static void menu() {
