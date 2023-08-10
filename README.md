@@ -1,4 +1,2 @@
-"# INF3M212" 
-"# INF3M212" 
-"# INF3M212" 
-"# INF2M212" 
+<h1>Exercicios em Java</h1>
+Projeto para aprender Java através de exercicios e exemplos
